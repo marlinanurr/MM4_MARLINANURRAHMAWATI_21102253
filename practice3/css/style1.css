@@ -1,0 +1,17 @@
+#solid {border-style: solid;}
+.button {
+    background-color: #4CAF40;
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+h2{
+    color: aqua;
+}
+h1,h3{
+    color: blue;
+}
