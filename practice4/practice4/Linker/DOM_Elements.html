@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript HTML DOM</h2>
+
+<p id="intro">Cara makan nasi padang pake tangan</p>
+
+<p id="demo"></p>
+
+<script>
+const element = document.getElementById("intro");
+
+document.getElementById("demo").innerHTML = 
+"Isinya tuh intinya Cara makan nasi padang pake garpu dan " + element.innerHTML;
+
+</script>
+
+</body>
+</html>
